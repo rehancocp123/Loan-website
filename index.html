@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Application Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Loan Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#apply">Apply Now</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Get the Loan You Need</h2>
+        <p>We offer personal, business, and mortgage loans with low-interest rates.</p>
+    </section>
+
+    <section id="apply">
+        <h2>Apply for a Loan</h2>
+        <form id="loan-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="loan-type">Loan Type:</label>
+            <select id="loan-type" name="loan-type">
+                <option value="personal">Personal Loan</option>
+                <option value="business">Business Loan</option>
+                <option value="mortgage">Mortgage Loan</option>
+            </select>
+
+            <label for="amount">Loan Amount:</label>
+            <input type="number" id="amount" name="amount" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are committed to helping you achieve your financial goals with flexible loan options.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@loanwebsite.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Loan Application Website. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

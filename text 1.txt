@@ -1,0 +1,11 @@
+// script.js
+document.getElementById('loan-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const loanType = document.getElementById('loan-type').value;
+    const amount = document.getElementById('amount').value;
+
+    alert(`Thank you, ${name}! Your loan application for a ${loanType} of $${amount} has been submitted.`);
+});
